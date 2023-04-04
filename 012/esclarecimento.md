@@ -1,12 +1,20 @@
 # Métodos do módulo __fs__.
-
-## Função **mkdir** e **mkdirSync**.
->Criação de pastas de forma síncrona e assíncrona.
+>cria e remove pastas de forma síncrona e assíncrona.
 
 ## Função **rmdir** e **rmdirSync**
-```const fs = require('fs');
+### rmdir Exemplo:
+```
+const fs = require('fs');
 fs.rmdir('./pastaTeste', ()=>{
 	console.log('Pasta removida.')
 });
 ```
->Remove pastas de forma assíncrona ou síncrona.
+## Função **mkdir** e **mkdirSync**.
+### mkdir Exemplo:
+```
+const fs = require('fs');
+
+fs.rmdir('./pastaTeste', ()=>{
+	console.log('Pasta removida.')
+});
+```
