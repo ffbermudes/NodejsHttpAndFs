@@ -18,3 +18,5 @@ fs.rmdir('./pastaTeste', ()=>{
 	console.log('Pasta removida.')
 });
 ```
+
+***OBS: as funções sincronas são mais simples por isso não irei exemplificar***
