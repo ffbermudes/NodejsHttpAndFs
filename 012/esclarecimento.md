@@ -4,9 +4,9 @@
 >Criação de pastas de forma síncrona e assíncrona.
 
 ## Função **rmdir** e **rmdirSync**
-`const fs = require('fs');
-
+```const fs = require('fs');
 fs.rmdir('./pastaTeste', ()=>{
 	console.log('Pasta removida.')
-});`
+});
+```
 >Remove pastas de forma assíncrona ou síncrona.
