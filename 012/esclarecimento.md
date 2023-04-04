@@ -5,6 +5,7 @@
 ### rmdir Exemplo:
 ```
 const fs = require('fs');
+
 fs.rmdir('./pastaTeste', ()=>{
 	console.log('Pasta removida.')
 });
@@ -20,3 +21,10 @@ fs.rmdir('./pastaTeste', ()=>{
 ```
 
 ***OBS: as funções sincronas são mais simples por isso não irei exemplificar***
+
+### Teste.
+|Cabeçalho 1 |
+|------------|
+|            |
+|            |
+|            |
