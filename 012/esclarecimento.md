@@ -11,12 +11,12 @@ fs.rmdir('./pastaTeste', ()=>{
 ```
 ## Função **mkdir** e **mkdirSync**.
 ### mkdir Exemplo:
-```
+```<span style="color: red;">
 const fs = require('fs');
 
 fs.rmdir('./pastaTeste', ()=>{
 	console.log('Pasta removida.')
-});
+});</span>
 ```
 
 ***OBS: as funções sincronas são mais simples por isso não irei exemplificar***
