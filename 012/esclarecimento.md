@@ -1,8 +1,9 @@
 # Métodos do módulo __fs__.
->cria e remove pastas de forma síncrona e assíncrona.
+>Como criar e remover pastas utilizando o nodejs.
 
 ## Função **rmdir** e **rmdirSync**
-### rmdir Exemplo:
+### **rmdir** Exemplo:
+
 ```
 const fs = require('fs');
 
@@ -10,8 +11,9 @@ fs.rmdir('./pastaTeste', ()=>{
 	console.log('Pasta removida.')
 });
 ```
+---
 ## Função **mkdir** e **mkdirSync**.
-### mkdir Exemplo:
+### **mkdir** Exemplo:
 ```
 const fs = require('fs');
 
@@ -19,12 +21,6 @@ fs.rmdir('./pastaTeste', ()=>{
 	console.log('Pasta removida.')
 });
 ```
+***OBS: as funções síncronas são mais simples por isso não irei exemplificar.***
 
-***OBS: as funções sincronas são mais simples por isso não irei exemplificar***
-
-### Teste.
-|Cabeçalho 1 |
-|------------|
-|            |
-|            |
-|            |
+>## Link da aula: [Clique aqui.](https://youtu.be/SyMgFIpd3XQ?list=PLXik_5Br-zO8Ul2-XnkTf99jiYaDylAAW)
