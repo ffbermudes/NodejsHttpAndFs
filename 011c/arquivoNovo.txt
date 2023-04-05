@@ -1,1 +1,0 @@
- Vai ser executado primeiro, porque essa função é sincrona. Executada por último função assincrona.
