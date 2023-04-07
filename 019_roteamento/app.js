@@ -23,6 +23,12 @@ const server = http.createServer((req, res) => {
 			arquivo = './contatos.html';
 			break;
 
+		case '/contact':
+			res.setHeader('Location', '/contatos');
+			res.statusCode = 301;
+			res.end();
+			break;
+
 		default:
 			res.statusCode = 404;
 			arquivo = './pagErro404.html'
