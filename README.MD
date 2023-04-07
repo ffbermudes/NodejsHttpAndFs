@@ -22,11 +22,9 @@
 # RES
 <a id="RES"></a>
 
-## ``res.statusCode = 301;`` :
-#### Redireciona para página existente.
+### ``res.statusCode = 301;`` : redireciona para outra página.
 
 # REQ
 <a id="REQ"> </a>
 
-## `req.url = '/'` :
-#### Caminho da requisição que o usuário digita na url do broser ou em outros locais.
+### `req.url = '/'` : Caminho da requisição que o usuário digita na url do browser ou em outros locais.
