@@ -28,5 +28,5 @@
 # REQ
 <a id="REQ"> </a>
 
-## ``req.url = '/'`` :
+## `req.url = '/'` :
 #### Caminho da requisição que o usuário digita na url do broser ou em outros locais.
