@@ -1,9 +1,11 @@
 const http = require('http');
 const fs = require('fs');
+const lodash = require('lodash');
 
 const server = http.createServer((req, res) => {
+	console.log(lodash.random(0, 100));
 	let arquivo;
-
+	
 	res.setHeader('Content-Type', 'text/html');
 
 	switch (req.url) {
@@ -23,7 +25,8 @@ const server = http.createServer((req, res) => {
 			arquivo = './contatos.html';
 			break;
 
-		case '/contact':
+		case '/contactios':
+			// redireciona para o caminho correto.
 			res.setHeader('Location', '/contatos');
 			res.statusCode = 301;
 			res.end();
@@ -52,4 +55,5 @@ const server = http.createServer((req, res) => {
 
 server.listen(3000, 'localhost', () => {
 	console.log('servidor rodando');
+	console.log(lodash.random(0, 100));
 });
